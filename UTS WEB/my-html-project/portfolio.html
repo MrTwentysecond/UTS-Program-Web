@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Halaman Portofolio</title>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-grid">
+            <!-- Portofolio 1 -->
+            <div class="project">
+                <img src="portofolio 1.jpg" alt="Project 1">
+                <h2>Jaringan 5G</h2>
+                <p>Proyek ini berfokus pada penelitian dan pengembangan teknologi jaringan internet 5G yang menawarkan kecepatan tinggi, latensi rendah, dan konektivitas yang lebih stabil. Melalui proyek ini, dilakukan analisis terhadap performa jaringan 5G dalam mendukung komunikasi real-time, Internet of Things (IoT), serta otomatisasi industri. Tujuan utama proyek ini adalah memahami bagaimana implementasi 5G dapat meningkatkan efisiensi dan transformasi digital di berbagai sektor kehidupan.</p>
+            </div>
+
+            <!-- Portofolio 2 -->
+            <div class="project">
+                <img src="portofolio 2.jpg" alt="Project 2">
+                <h2>Artificial Intelligence (AI)</h2>
+                <p>Proyek ini berfokus pada pengembangan sistem berbasis Artificial Intelligence (AI) untuk meningkatkan efisiensi analisis data dan pengambilan keputusan. Sistem AI yang dikembangkan mampu mempelajari pola dari data secara otomatis menggunakan machine learning, sehingga dapat memberikan prediksi dan rekomendasi cerdas dalam waktu singkat. Tujuannya adalah untuk membantu pengguna memperoleh insight yang akurat tanpa perlu proses manual yang panjang.</p>
+            </div>
+
+            <!-- Portofolio 3 -->
+            <div class="project">
+                <img src="portofolio 3.jpg" alt="Project 3">
+                <h2>Mobil Listrik</h2>
+                <p>Proyek ini berfokus pada pengembangan dan analisis sistem mobil listrik ramah lingkungan sebagai solusi transportasi masa depan. Penelitian mencakup efisiensi penggunaan energi baterai, sistem pengisian daya, serta optimalisasi performa motor listrik. Tujuan proyek ini adalah menciptakan kendaraan yang hemat energi, minim emisi, dan mendukung keberlanjutan lingkungan melalui penerapan teknologi otomotif modern.</p>
+            </div>
+        </section>
+    </main>
+
+<style>
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.project h2 {
+    margin: 1rem 0;
+    color: #333;
+}
+
+.project p {
+    margin-top: 1rem;
+}
+</style>
+
+    <footer>
+        <p>&copy; 2025 Bayu Putra Setia Eka Premana All rights reserved.</p>
+    </footer>
+</body>
+</html>
